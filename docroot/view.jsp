@@ -18,4 +18,15 @@
 
 <portlet:defineObjects />
 
-This is the <b>Visualize Infection Model portlet</b> portlet.
+<div id=tabs-3>
+    <p>To use this form for visualizing the results generated from running Repast simulation, just choose a CSV file through the file dialog </p>
+    <hr />
+    <input id=files type=file name="file" />
+    <input id=edit2 type=button value="Edit Chart" />
+    <hr />
+    <div id=dashboard2>
+        <div id=chart2></div>
+        <div id=control2></div>
+        <!--<div id=padding2 style="display:block; height:700px; background-color:white; visibility:hidden;"></div>--> 
+    </div>
+</div>
