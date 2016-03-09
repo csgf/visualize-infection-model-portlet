@@ -19,7 +19,8 @@
 <portlet:defineObjects />
 
 <div id=tabs-3>
-    <p>To use this form for visualizing the results generated from running Repast simulation, just choose a CSV file through the file dialog </p>
+    <p>This is an example of how a portlet can be used to visualise the output of the infection model. Select the appropriate <b>output{timestamp}.csv</b> from your experiments and you will see the results.
+    </p>
     <hr />
     <input id=files type=file name="file" />
     <input id=edit2 type=button value="Edit Chart" />
