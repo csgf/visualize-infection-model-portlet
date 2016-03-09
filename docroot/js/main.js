@@ -79,7 +79,7 @@ function drawChart(setChartData, num) {
 
     var chart = new google.visualization.ChartWrapper({
         chartType: 'LineChart',
-        containerId: 'chart' + num
+        containerId: 'chart' + num,
     });
 
     function fixOptions(wrapper) {
@@ -87,6 +87,12 @@ function drawChart(setChartData, num) {
         wrapper.setOption('height', 500);
         wrapper.setOption('width', '100%');
         wrapper.setOption('chartArea.width', '75%');
+        wrapper.setOption('title', 'The Repast Infection Model: Annual Outbreak');
+        wrapper.setOption('vAxis.title', 'Population');
+        wrapper.setOption('hAxis.title', 'Time (Days)');
+        wrapper.setOption('legend', 'bottom');
+        wrapper.setOption('crosshair.orientation', 'both');
+        wrapper.setOption('crosshair.trigger', 'both');
         // the chart editor automatically enables animations, which doesn't look right with the ChartRangeFilter
         wrapper.setOption('animation', null);
         // the chart editor sets hAxis.viewWindowMode to 'pretty', which doesn't work well with continuous axes
