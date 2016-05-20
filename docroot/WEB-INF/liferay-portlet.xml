@@ -11,7 +11,7 @@
                 <header-portlet-javascript>https://code.jquery.com/jquery-1.8.2.js</header-portlet-javascript>
                 <header-portlet-javascript>https://code.jquery.com/ui/1.9.0/jquery-ui.js</header-portlet-javascript>
                 <header-portlet-javascript>https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['controls', 'charteditor']}]}</header-portlet-javascript>
-                <header-portlet-javascript>https://jquery-csv.googlecode.com/git/src/jquery.csv.js</header-portlet-javascript>
+                <header-portlet-javascript>https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js</header-portlet-javascript>
 		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
 		<css-class-wrapper>visualize-infection-model-portlet</css-class-wrapper>
 	</portlet>
