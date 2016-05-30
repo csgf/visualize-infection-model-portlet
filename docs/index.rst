@@ -6,7 +6,7 @@ VISUALIZE INFECTION PORTLET
 About
 ============
 
-Some text....
+The visualize portlet is just a simple demonstration graph tool that allows users to see the graphical visualisation of the results output file, which has been generated using the infection model-portlet. This helps users to understand the significance of their results, by placing it in a visual context. Patterns, trends and correlations that might go undetected in text-based data can be exposed and recognized easier by making use of this tool. Consequently, when a job is ready and the output is collected, a user can upload the output file, using this portlet (infection model visualisation tool) on the science gateway and a graphical view of their jobs would be generated. This visulize tool has two major axis, namely the population and the time (in days). It also has a view to represent the different types of population. i.e the recovered, susceptible and the infected poipulation. 
 
 ============
 Installation
