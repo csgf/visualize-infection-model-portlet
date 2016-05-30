@@ -20,7 +20,7 @@ The visualize portlet is just a simple demonstration graph tool that allows user
 Installation
 ============
 
-This section explains how to deploy and configure the infectionModel-parallel-portlet
+This section explains how to deploy and configure the visualize-infection-model-portlet
 into a Science gateway to submit some preconfigures experitments towards
 Distributed Computing infrastructures.
 
