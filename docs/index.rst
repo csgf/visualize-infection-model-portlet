@@ -84,7 +84,7 @@ on a cloud based system.
    :scale: 70%
    :alt: infectionModel-portlet preference
 
-The visualize portlet can simply be used by uploading the output file, which was generated from the infection model portlets. This is done by simply clicking on the choose file icon, on the visualzse portlet page, and users can select the appropriate output.csv file from among their experiments. This will automatically generate a graphical view of their jobs.
+The visualize portlet can simply be used by uploading the output file, which was generated from the infection model portlets. This is done by simply clicking on the choose file icon, on the visualzse portlet page as shown above, and users can select the appropriate output.csv file from among their experiments. This will automatically generate a graphical view of their jobs.
 
 ==============
 Contributor(s)
