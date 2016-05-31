@@ -29,7 +29,7 @@ infectionModel-portlet source through the following git command:
 
 .. code:: bash
 
-        git clone https://github.com/csgf/infectionModel-portlet.git
+        git clone https://github.com/csgf/visualize-infection-model-portlet.git
 
 2. Now, move into the just created infectionModel-portlet directory and execute
 the deploy command:
@@ -42,14 +42,11 @@ When the previous command has completed, verify that the portlet is
 *"Successfully autodeployed"*, look for a string like this in the Liferay log
 file under $LIFERAY_HOME/glassfish-3.1.2/domains/domain1/logs/server.log.
 
-3. Then, open your browser and point at your Science Gateway instance and form
-there click Add > More in the Brunel University category, click on Add button to
-add this new portlet. Following picture shows the correctly result:
+3. Then, open your browser and point at your Science Gateway instance and from
+there, click Add > More in the Brunel University category, click on Add button to
+add this new portlet. The Following picture shows the correct view:
 
-.. image:: images/view.png
-    :align: center
-    :scale: 80%
-    :alt: infectionModel-portlet view
+
 
 As soon as the portlet has been successfully deployed you have to configure:
 
@@ -74,29 +71,14 @@ the right values for the following parameters:
 - **Local Proxy**: The path to the proxy if you are using a local proxy;
 - **Software Tags**: The list of software tags requested by the application.
 
-The following figure shown how the portlet has been configured to run simulation
-on a cloud based system.
-
-.. image:: images/portlet_pref.png
-   :align: center
-   :scale: 70%
-   :alt: infectionModel-portlet preference
-
-Another important step to have infectionModel-portlet ready to be used is: to
-create a new entry in GridOperations table of the UsersTracking database, as
-shown below.
-
-.. code:: sql
-
-    INSERT INTO GridOperation VALUES ('<portal name>' ,'Infection Model portlet');
-
-    -- portal name: is a label representing the portal name, you can get the
-    -- right value from your Science Gateway istance.
-
 
 ============
 Usage
 ============
+
+The following figure show the view of the visualize-infection-model-portlet and how it can be used to visualize outpit file results
+on a cloud based system.
+
 .. image:: images/view-result.png
    :align: center
    :scale: 70%
