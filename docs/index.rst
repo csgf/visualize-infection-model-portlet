@@ -14,7 +14,7 @@ About
    :target: https://github.com/csgf/infectionModel-portlet
    :alt: infectionModel-portlet logo
 
-The visualize portlet is just a simple demonstration graph tool that allows users to see the graphical visualisation of the results output file, which has been generated using the infection model-portlet. This helps users to understand the significance of their results, by placing it in a visual context. Patterns, trends and correlations that might go undetected in text-based data can be exposed and recognized easier by making use of this tool. Consequently, when a job is ready and the output is collected, a user can upload the output file, using this portlet (infection model visualisation tool) on the science gateway and a graphical view of their jobs would be generated. The visualize tool graph has two major axis, namely the population and the time (in days). It also has a view to represent the different types of population. i.e the recovered, susceptible and the infected population. 
+The visualize portlet is just a simple demonstration graph tool that allows users to see the graphical visualisation of the results output file, which has been generated using the infection model-portlet. This helps users to understand the significance of their results, by placing it in a visual context. Patterns, trends and correlations that might go undetected in text-based data can be exposed and recognized easier by making use of this tool. Consequently, when a job is ready and the output is collected, a user can upload the output file, using this portlet (infection model visualisation tool) on the science gateway and a graphical view of their jobs would be generated. The visualize tool graph has two major axis, namely the population and the time (in days). It also has a view to represent the different types of population. i.e the recovered, susceptible and the infected population.
 
 ============
 Installation
@@ -46,37 +46,16 @@ file under $LIFERAY_HOME/glassfish-3.1.2/domains/domain1/logs/server.log.
 there, click Add > More in the Brunel University category, click on Add button to
 add this new portlet. The Following picture shows the correct view:
 
-
-
-As soon as the portlet has been successfully deployed you have to configure:
-
-1. the list of e-Infrastructures where the application can be executed;
-2. some additional application settings.
-
-To configure the e-Infrastructure, go to the portlet preferences and provide the
-the right values for the following parameters:
-
-- **Enable infrastructure**: A yes/no flag which enables or disable the generic e-Infrastructure;
-- **Infrastructure name**: A label representing the e-Infrastructure;
-- **Infrastructure acronym**: The acronym to reference the e-Infrastructure;
-- **BDII**: The Top BDII for this e-Infrastructure;
-- **WMS Hosts**: A separated `;` list of WMS endpoint for this e-Infrastructure;
-- **Proxy Robot host server**: The eTokenServer for this e-Infrastructure;
-- **Proxy Robot host port**: The eTokenServer port for this e-Infrastructure;
-- **Proxy Robot secure connection**: A true/false flag if the eTokenServer require a secure connection;
-- **Proxy Robot Identifier**: The MD5SUM of the robot certificate to be used for this e-Infrastructure;
-- **Proxy Robot Virtual Organization**: The VO for this e-Infrastructure;
-- **Proxy Robot VO Role**: The VO role for this e-Infrastructure;
-- **Proxy Robot Renewal Flag**: A true/false Flag to require proxy renewal before it expires;
-- **Local Proxy**: The path to the proxy if you are using a local proxy;
-- **Software Tags**: The list of software tags requested by the application.
-
+.. image:: images/view.png
+   :align: center
+   :scale: 70%
+   :alt: infectionModel-portlet preference
 
 ============
 Usage
 ============
 
-The following figure show the view of the visualize-infection-model-portlet and how it can be used to visualize outpit file results
+The following figure show the view of the visualize-infection-model-portlet and how it can be used to visualize output file results
 on a cloud based system.
 
 .. image:: images/view-result.png
